@@ -4,7 +4,7 @@
 
 =head1 PURPOSE
 
-Test that Alt::common::sense::TOBYINK compiles.
+Test that common::sense compiles.
 
 =head1 AUTHOR
 
@@ -22,9 +22,8 @@ the same terms as the Perl 5 programming language system itself.
 
 use strict;
 use warnings;
-use Test::More;
+use Test::More tests => 1;
 
-use_ok('Alt::common::sense::TOBYINK');
+use_ok('common::sense');
 
-done_testing;
 
