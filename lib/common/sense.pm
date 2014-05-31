@@ -7,7 +7,7 @@ package #
 	common::sense;
 
 our $AUTHORITY = 'cpan:TOBYINK';
-our $VERSION   = '3.72';
+our $VERSION   = '3.73';
 
 sub import
 {
@@ -36,7 +36,7 @@ sub import
 		qw(
 			FATAL closed threads internal debugging pack
 			portable prototype inplace io pipe unpack malloc
-			deprecated glob digit printf layer
+			glob digit printf layer
 			reserved taint closure semicolon
 		)
 	);
