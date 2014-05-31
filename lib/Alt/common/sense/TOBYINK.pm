@@ -17,6 +17,11 @@ __END__
 
 Alt::common::sense::TOBYINK - provides a clean-room reimplementation of common::sense
 
+=head1 VERSION
+
+This is Alt::common::sense::TOBYINK 0.001, but it aims at compatibility
+with common::sense 3.73.
+
 =head1 SYNOPSIS
 
    use common::sense;
