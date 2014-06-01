@@ -13,6 +13,8 @@ __END__
 
 =encoding utf-8
 
+=for stopwords reimplementation
+
 =head1 NAME
 
 Alt::common::sense::TOBYINK - provides a clean-room reimplementation of common::sense

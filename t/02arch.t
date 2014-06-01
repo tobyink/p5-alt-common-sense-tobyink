@@ -2,8 +2,7 @@ BEGIN { $| = 1; print "1..1\n" }
 
 use common::sense;
 
-if ($common::sense::VERSION < 3.7 or $common::sense::AUTHORITY ne 'cpan:TOBYINK') {
-   print STDERR <<EOF;
+print STDERR <<EOF if $common::sense::VERSION < 3.7 or $common::sense::AUTHORITY ne 'cpan:TOBYINK';
 
 ***
 *** WARNING
@@ -16,6 +15,5 @@ if ($common::sense::VERSION < 3.7 or $common::sense::AUTHORITY ne 'cpan:TOBYINK'
 ***
 
 EOF
-}
 
 print "ok 1\n";
